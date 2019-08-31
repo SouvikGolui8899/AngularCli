@@ -1,4 +1,4 @@
-####To create a new project:
+#### To create a new project:
 
     $ ng new <project-name>
 
@@ -13,14 +13,14 @@ To start the application
 Architecture of Angular
 -----------------------
 
-####Module
+#### Module
 
 The first building block is a module. An Angular application is a collection of many individual module. Every module
 represents a feature area in your application. Every Angular application has atleast one module, the root module.
 
 ![Image of Module](resources/Modules.png)
 
-####Components
+#### Components
 
 Each module is in turn made of components and services. A component controls a portion of the view on the browser.
 
@@ -32,7 +32,7 @@ All other components will be bested inside this root component.
 
 ![Image of Component Cont.](resources/Component2.png)
 
-####Services
+#### Services
 
 Modules will also have services, which is basically a class that contains the business logic of your application.
 
@@ -41,11 +41,11 @@ Modules will also have services, which is basically a class that contains the bu
 Architecture Summary
 --------------------
 
-####Angular app - one or more modules
-####Module - One or more components and services.
-####Components - HTML + Class
-####Services - business Logic
-####Modules interact and ultimately render the view in the browser.
+#### Angular app - one or more modules
+#### Module - One or more components and services.
+#### Components - HTML + Class
+#### Services - business Logic
+#### Modules interact and ultimately render the view in the browser.
 
 package.json
 ------------
